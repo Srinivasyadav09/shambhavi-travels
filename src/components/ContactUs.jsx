@@ -103,7 +103,7 @@ const ContactUs = (props) => {
                     <input
                       type="tel"
                       className="form-control bg-light border-0 p-3"
-                      placeholder="+91 00000 00000"
+                      placeholder="+91 7995267449"
                       value={phoneNumber}
                       onChange={(e) => setPhoneNumber(e.target.value)}
                       required
