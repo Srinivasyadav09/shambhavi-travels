@@ -1,0 +1,201 @@
+{
+  "fleet": {
+    "sedans": [
+      {
+        "id": "s1",
+        "name": "Swift Dzire",
+        "category": "Economy Sedan",
+        "capacity": "4+1",
+        "price": "12/km",
+        "img": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=500"
+      },
+      {
+        "id": "s2",
+        "name": "Vitara Brezza",
+        "category": "Compact SUV",
+        "capacity": "5",
+        "price": "14/km",
+        "img": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=500"
+      },
+      {
+        "id": "s3",
+        "name": "Ciaz",
+        "category": "Premium Sedan",
+        "capacity": "4+1",
+        "price": "15/km",
+        "img": "https://images.unsplash.com/photo-1621348160356-02e08b341f23?w=500"
+      }
+    ],
+    "suv_xuv": [
+      {
+        "id": "x1",
+        "name": "Ertiga",
+        "category": "MUV",
+        "capacity": "6+1",
+        "price": "16/km",
+        "img": "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=500"
+      },
+      {
+        "id": "x2",
+        "name": "XUV 700",
+        "category": "Luxury SUV",
+        "capacity": "6+1",
+        "price": "22/km",
+        "img": "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=500"
+      },
+      {
+        "id": "x3",
+        "name": "Innova Crysta",
+        "category": "Premium MUV",
+        "capacity": "7+1",
+        "price": "20/km",
+        "img": "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=500"
+      },
+      {
+        "id": "x4",
+        "name": "Fortuner",
+        "category": "Adventure SUV",
+        "capacity": "7",
+        "price": "35/km",
+        "img": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=500"
+      }
+    ],
+    "luxury": [
+      {
+        "id": "l1",
+        "name": "Toyota Vellfire",
+        "category": "Ultra Luxury MUV",
+        "price": "On Call",
+        "img": "https://images.unsplash.com/photo-1609521262044-84d4368b6d21?w=500"
+      },
+      {
+        "id": "l2",
+        "name": "BMW / Mercedes / Jaguar",
+        "category": "Luxury Sedan",
+        "price": "On Call",
+        "img": "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=500"
+      },
+      {
+        "id": "l3",
+        "name": "Rolls-Royce / Vintage",
+        "category": "Heritage Luxury",
+        "price": "On Call",
+        "img": "https://images.unsplash.com/photo-1631214500115-598fc2cb8d2d?w=500"
+      }
+    ]
+  },
+  "buses": {
+    "seater": {
+      "id": "b1",
+      "title": "Seater Buses",
+      "options": [12, 16, 22, 28, 36, 40, 46, 50, 60],
+      "img": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=500"
+    },
+    "sleeper": {
+      "id": "b2",
+      "title": "Sleeper Buses",
+      "options": [36, 40, 50, 60],
+      "img": "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?w=500"
+    }
+  },
+  "selfDrive": [
+    {
+      "id": "sd1",
+      "name": "Baleno",
+      "brand": "Maruti",
+      "transmission": "Manual",
+      "fuel": "Petrol",
+      "price": "1800/day"
+    },
+    {
+      "id": "sd2",
+      "name": "Brezza",
+      "brand": "Maruti",
+      "transmission": "Manual/Auto",
+      "fuel": "Petrol",
+      "price": "2200/day"
+    },
+    {
+      "id": "sd3",
+      "name": "Ertiga",
+      "brand": "Maruti",
+      "transmission": "Manual",
+      "fuel": "CNG/Petrol",
+      "price": "2800/day"
+    },
+    {
+      "id": "sd4",
+      "name": "Kia Carens",
+      "brand": "Kia",
+      "transmission": "Auto",
+      "fuel": "Diesel",
+      "price": "3500/day"
+    },
+    {
+      "id": "sd5",
+      "name": "XUV 700",
+      "brand": "Mahindra",
+      "transmission": "Auto",
+      "fuel": "Diesel",
+      "price": "4500/day"
+    },
+    {
+      "id": "sd6",
+      "name": "Innova Crysta",
+      "brand": "Toyota",
+      "transmission": "Manual",
+      "fuel": "Diesel",
+      "price": "4200/day"
+    }
+  ],
+  "packages": [
+    {
+      "id": "p1",
+      "destination": "Himachal",
+      "range": "₹9,499–14,999",
+      "plans": 5,
+      "departures": "20 Dates/Month",
+      "tag": "Best Seller"
+    },
+    {
+      "id": "p2",
+      "destination": "Kashmir",
+      "range": "₹11,999–16,299",
+      "plans": 3,
+      "departures": "12 Dates/Month",
+      "tag": "Hot Deal"
+    },
+    {
+      "id": "p3",
+      "destination": "Rajasthan",
+      "range": "₹10,499–15,399",
+      "plans": 3,
+      "departures": "18 Dates/Month",
+      "tag": "Heritage"
+    },
+    {
+      "id": "p4",
+      "destination": "Kerala",
+      "range": "₹11,499–16,799",
+      "plans": 3,
+      "departures": "28 Dates/Month",
+      "tag": "Trending"
+    },
+    {
+      "id": "p5",
+      "destination": "Uttarakhand",
+      "range": "₹9,699–13,099",
+      "plans": 3,
+      "departures": "9 Dates/Month",
+      "tag": "Nature"
+    },
+    {
+      "id": "p6",
+      "destination": "Nepal",
+      "range": "₹16,399–18,699",
+      "plans": 2,
+      "departures": "4 Dates/Month",
+      "tag": "International"
+    }
+  ]
+}

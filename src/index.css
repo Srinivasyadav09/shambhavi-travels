@@ -1,0 +1,165 @@
+/* Fixed bottom navigation for NaviButton */
+.fixed-bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  background: #f4f5f6;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.08);
+  z-index: 1000;
+  padding: 0;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+body {
+  overflow-x: hidden;
+}
+.slider-container {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+@media (max-width: 600px) {
+  .fixed-bottom-nav {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    padding: 0;
+  }
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@import "tailwindcss";
+/* Navbar layout - responsive padding */
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 1rem 1.25rem;
+}
+
+.navbar h1 {
+  color: #e5560c;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.menu {
+  margin-left: auto;
+}
+
+@media (min-width: 992px) {
+  .navbar {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+/* Mobile / Responsive additions */
+:root {
+  --max-content-width: 1200px;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  font-size: 16px;
+}
+
+/* Make images and media scale down on small screens */
+img,
+video,
+svg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Global container utility */
+.container {
+  max-width: var(--max-content-width);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Make touch targets and text more comfortable on small screens */
+button,
+.btn,
+.chakra-button {
+  min-height: 40px;
+}
+
+/* Ensure cards and grids collapse nicely on mobile */
+.grid-responsive {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+@media (max-width: 992px) {
+  .grid-responsive {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .navbar {
+    padding: 0.75rem 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  html {
+    font-size: 14px;
+  }
+
+  .grid-responsive {
+    grid-template-columns: 1fr;
+  }
+
+  .navbar h1 {
+    font-size: 1rem;
+  }
+
+  /* Make primary actions full width on small phones */
+  .btn-full-mobile,
+  .chakra-button.w-100,
+  .chakra-button.btn-full-mobile {
+    width: 100% !important;
+  }
+
+  /* Reduce spacing for stacked sections */
+  .stack-tight {
+    margin-bottom: 0.5rem;
+    gap: 0.5rem;
+  }
+}
+
+/* Helpful utility classes you can add to components */
+.text-center-mobile {
+  text-align: left;
+}
+
+@media (max-width: 576px) {
+  .text-center-mobile {
+    text-align: center;
+  }
+}
+
+/* mobile devices */
+@media (max-width: 576px) {
+  .navbar {
+    padding: 10px;
+    background-color: #000;
+  }
+}
