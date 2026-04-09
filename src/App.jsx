@@ -13,7 +13,7 @@ function App() {
         <div className="container-fluid d-flex align-items-center">
           {/* Brand */}
           <img
-            src="/src/assets/shambhavifinal.png"
+            src="/shambhavifinal.png"
             className="navbar-brand-img me-2"
             height={60}
             width={140}
