@@ -38,7 +38,7 @@ const ContactUs = (props) => {
                 <div>
                   <h6 className="mb-0 fw-bold">Our Office</h6>
                   <p className="mb-0 text-muted">
-                    123 Travel Plaza, Main Road, [Your City]
+                    Ramanthapur, [Hyderabad], India
                   </p>
                 </div>
               </div>

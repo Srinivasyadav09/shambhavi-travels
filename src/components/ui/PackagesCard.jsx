@@ -9,7 +9,7 @@ export default function TravelPackageCard({ pkg }) {
   // WhatsApp handler
   const handleWhatsApp = () => {
     const message = `Hello, I am interested in booking the package: ${pkg.name} (${pkg.duration}, ${pkg.price}). Highlights: ${pkg.highlight}`;
-    const url = `https://wa.me/919000000000?text=${encodeURIComponent(message)}`;
+    const url = `https://wa.me/917995267449?text=${encodeURIComponent(message)}`;
     window.open(url, "_blank");
   };
   return (

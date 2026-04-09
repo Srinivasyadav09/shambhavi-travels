@@ -9,7 +9,7 @@ export default function SelfDriveCard({ selfDriveOption }) {
   // WhatsApp handler
   const handleWhatsApp = () => {
     const message = `Hello, I am interested in the self-drive car: ${selfDriveOption.vehicle} (${selfDriveOption.type}, ${selfDriveOption.transmission}, ${selfDriveOption.fuel}, ${selfDriveOption.seats} seats) at ₹${selfDriveOption.pricePerDay}/day.`;
-    const url = `https://wa.me/919000000000?text=${encodeURIComponent(message)}`;
+    const url = `https://wa.me/917995267449?text=${encodeURIComponent(message)}`;
     window.open(url, "_blank");
   };
   return (

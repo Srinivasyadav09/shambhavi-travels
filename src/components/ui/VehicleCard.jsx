@@ -10,7 +10,7 @@ export default function VehicleCard({ vehicle }) {
   // WhatsApp handler
   const handleWhatsApp = () => {
     const message = `Hello, I am interested in booking the vehicle: ${vehicle.name} (${vehicle.fuel}, ${vehicle.transmission}, ${vehicle.seats} seats) at ${vehicle.price}.`;
-    const url = `https://wa.me/919000000000?text=${encodeURIComponent(message)}`;
+    const url = `https://wa.me/917995267449?text=${encodeURIComponent(message)}`;
     window.open(url, "_blank");
   };
   return (
