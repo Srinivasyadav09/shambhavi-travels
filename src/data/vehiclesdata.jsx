@@ -69,7 +69,7 @@ const vehicleData = [
     driverCharges: "₹750",
   },
   {
-    name: "12-60 seater Tempo Traveller",
+    name: "12-60 seater Tempo",
     image:
       "https://shelketravels.com/wp-content/uploads/2023/12/WhatsApp-Image-2023-12-08-at-12.52.38-AM-1024x682.jpeg",
     price: "₹2400/day",

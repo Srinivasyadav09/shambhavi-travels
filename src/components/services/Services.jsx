@@ -29,6 +29,7 @@ export default function Services() {
               gap: "1rem",
               maxWidth: "100%",
               overflow: "hidden",
+              justifyContent: "center",
             }}
           >
             {vehicleData.map((vehicle, idx) => (
@@ -44,6 +45,7 @@ export default function Services() {
               gap: "1rem",
               maxWidth: "100%",
               overflow: "hidden",
+              justifyContent: "center",
             }}
           >
             {selfDrivingData.map((option, idx) => (
@@ -59,6 +61,7 @@ export default function Services() {
               gap: "1rem",
               maxWidth: "100%",
               overflow: "hidden",
+              justifyContent: "center",
             }}
           >
             {packageData.map((pkg, idx) => (
